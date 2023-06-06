@@ -25,7 +25,7 @@ export const info = {
   firstName: 'Chence',
   lastName: 'Shi',
   initials: 'CS', // the example uses first and last, but feel free to use three or more if you like.
-  position: 'a Full Stack Developer',
+  position: 'a Software Engineer',
   selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
   gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
   baseColor: colors[0],
