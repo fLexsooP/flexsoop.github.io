@@ -3,7 +3,7 @@ import mock1 from '../img/mock1.png';
 import mock2 from '../img/mock2.png';
 import mock3 from '../img/mock3.png';
 import mock4 from '../img/mock4.png';
-import mock5 from '../img/mock5.png';
+
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -149,10 +149,10 @@ export const info = {
       image: mock4,
     },
     {
-      title: 'TBD',
-      live: '',
-      source: 'https://github.com/flexsoop',
-      image: mock5,
+      title: 'TodoList',
+      live: 'https://chencetodolist.herokuapp.com/',
+      source: 'https://github.com/fLexsooP/todolist',
+
     },
   ],
 };
