@@ -14,13 +14,11 @@ export default function Resume() {
         border={'2px solid black'}
         borderRadius={'25px'}
         mb="2rem">
-        <div
-          style={{ cursor: 'pointer' }}
-          onClick={() => window.open(Chenceshi_Resume)}
-          target={'_blank'}
-          rel="noopener noreferrer">
-          Download
-        </div>
+        <a
+          href={Chenceshi_Resume}
+          download>
+          Download Resume
+        </a>
       </Box>
       <Document file={Chenceshi_Resume}>
         <Page
