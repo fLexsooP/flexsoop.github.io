@@ -1,6 +1,6 @@
 import { Box } from '@mui/material';
 import { Document, Page } from 'react-pdf/dist/esm/entry.vite';
-import Chenceshi_Resume from '../../info/Chenceshi_Resume.pdf';
+import Chenceshi_Resume from '/Chenceshi_Resume.pdf';
 
 export default function Resume() {
   return (
