@@ -1,6 +1,6 @@
 import { Box } from '@mui/material';
 import { Document, Page } from 'react-pdf/dist/esm/entry.vite';
-import Chenceshi_Resume from '/Chenceshi_Resume.pdf';
+import Chence_Shi_resume from '/Chence_Shi_resume.pdf';
 
 export default function Resume() {
   return (
@@ -15,12 +15,12 @@ export default function Resume() {
         borderRadius={'25px'}
         mb="2rem">
         <a
-          href={Chenceshi_Resume}
+          href={Chence_Shi_resume}
           download>
           Download Resume
         </a>
       </Box>
-      <Document file={Chenceshi_Resume}>
+      <Document file={Chence_Shi_resume}>
         <Page
           pageNumber={1}
           renderTextLayer={false}
